@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+}
+
+.header img {
+    padding-left: 100px;
+    width: 200px;
+}

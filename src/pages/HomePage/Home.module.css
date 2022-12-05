@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.home {
+    padding-top: 80px;
+    background-image: url("https://img.freepik.com/premium-photo/notebook-with-pencil-school-notebook-on-light-blue-background-spiral-notepad-on-table_497537-58.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 740px;
+}
+
+.title {
+    padding-top: 120px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    text-shadow: gray 3px 5px 10px;
+    font-size: 100px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+}
+
+
+.start a{
+    display: flex;
+    justify-content: center;
+    border-bottom: #393939 solid 1px;
+    color: #393939;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 400px;
+    align-items: stretch;
+}
+
+.d1 {
+    width: 50%;
+    height: 500px;
+    background-color: #e8e8e8;
+}
+.d2 {
+
+    width: 50%;
+    background-color: #e8e8e8;
+}
+.d3 {
+    width: 50%;
+    background-color: #e8e8e8;
+}
