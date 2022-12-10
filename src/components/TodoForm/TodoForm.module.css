@@ -1,0 +1,37 @@
+.form {
+    padding-left: 30%;
+}
+
+
+.title input{
+    width: 600px;
+    background-color: #e8e8e8;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.description textarea {
+    width: 600px;
+    background-color: #e8e8e8;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    height: 200px;
+    padding-left: 20px;
+}
+
+.form button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 8px;
+}

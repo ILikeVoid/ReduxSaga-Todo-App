@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
-.home {
+.title {
     padding-top: 80px;
     background-image: url("https://img.freepik.com/premium-photo/notebook-with-pencil-school-notebook-on-light-blue-background-spiral-notepad-on-table_497537-58.jpg?w=2000");
     background-repeat: no-repeat;
@@ -10,11 +10,15 @@
     height: 740px;
 }
 
-.title {
+.start {
     padding-top: 120px;
 }
 
 .text{
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
     display: flex;
     justify-content: center;
     text-shadow: gray 3px 5px 10px;
@@ -23,7 +27,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.start {
+.link {
     display: flex;
     justify-content: center;
 }
@@ -40,26 +44,35 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.info {
+    background-color:  #e8e8e8;
+}
+
 .description {
-    display: flex;
-    justify-content: space-around;
+    padding-top: 100px;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 400px;
     align-items: stretch;
 }
 
 .d1 {
+    border-radius: 30px;
     width: 50%;
     height: 500px;
-    background-color: #e8e8e8;
+    background-color: white;
 }
 .d2 {
-
+    margin-top:  20px;
+    border-radius: 30px;
+    height: 500px;
     width: 50%;
-    background-color: #e8e8e8;
+    margin-left: 50%;
+    background-color: white;
 }
 .d3 {
+    margin-top:  20px;
+    border-radius: 30px;
+    height: 500px;
     width: 50%;
-    background-color: #e8e8e8;
+    background-color: white;
 }

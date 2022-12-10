@@ -1,7 +1,7 @@
 import './App.css';
-import {BrowserRouter} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Header from "./components/Header/Header";
-import Todo from "./pages/TodoPage/Todo";
+import TodoPage from "./pages/TodoPage/TodoPage";
 import Home from "./pages/HomePage/Home";
 
 function App() {
@@ -12,7 +12,10 @@ function App() {
                     <Header />
                 </header>
                 <main className='content'>
-                    <Home />
+                    <Routes>
+                        <Route path="/" element={<Home/>}/>
+                        <Route path="/todo" element={<TodoPage/>}/>
+                    </Routes>
                 </main>
             </div>
         </BrowserRouter>
